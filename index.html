@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css" class="">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link href="https://fonts.cdnfonts.com/css/pt-root-ui" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+</head>
+<body>
+
+<div class="main">
+    <nav class="main-title">
+        Лучшее
+        <p class="main-title-arrows"><span id="slider-prev"></span><span id="slider-next"></span></p>
+    </nav>
+    <div class="slider">
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-discount">
+                        -55&#37;
+                        <div class="card-header-discount-days">
+                            ещё 2 дня
+                        </div>
+                    </div>
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/book.jpg" alt="book" class="card-header-picture__image">
+                    </div>
+                    <div class="card-header-gift">
+                        <img src="images/gift.svg" alt="gift" class="card-header-gift__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-new">
+                                1350 &#8381;
+                                <div class="card-bottom-price-old">
+                                    500 &#8381;
+                                </div>
+                            </div>
+                            <div class="card-bottom-price-currency">
+                                <img src="images/rubl.svg" alt="currency" class="card-bottom-price-currency__image">
+                            </div>
+                        </div>
+                        <div class="card-bottom-price-description">
+                            за 2 тома
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn">
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="card-bottom-delivery">
+                        Доставим бесплатно
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-discount">
+                        -55&#37;
+                        <div class="card-header-discount-days">
+                            ещё 2 дня
+                        </div>
+                    </div>
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/book.jpg" alt="book" class="card-header-picture__image">
+                    </div>
+                    <div class="card-header-gift">
+                        <img src="images/gift.svg" alt="gift" class="card-header-gift__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-new">
+                                1350 &#8381;
+                                <div class="card-bottom-price-old">
+                                    500 &#8381;
+                                </div>
+                            </div>
+                            <div class="card-bottom-price-currency">
+                                <img src="images/rubl.svg" alt="currency" class="card-bottom-price-currency__image">
+                            </div>
+                        </div>
+                        <div class="card-bottom-price-description">
+                            за 2 тома
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn">
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="card-bottom-delivery">
+                        Доставим бесплатно
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/waiting.jpg" alt="waiting" class="card-header-picture__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-title-status">
+                                Ожидается
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name card-bottom-info-name--font">
+                            <span>Линейка в ассортименте</span>
+                        </div>
+                        <div class="card-bottom-info-subname card-bottom-info-subname--font">
+                            Феникс линейка
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn card-bottom-basket-btn--find">
+                            Найти похожее
+                        </button>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/outofstock.jpg" alt="outofstock" class="card-header-picture__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-title-status">
+                                Нет в продаже
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+
+                    <div class="card-bottom-basket card-bottom-basket--mt">
+                        <button class="card-bottom-basket-btn card-bottom-basket-btn--find">
+                            Найти похожее
+                        </button>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-discount">
+                        -55&#37;
+                        <div class="card-header-discount-days">
+                            ещё 2 дня
+                        </div>
+                    </div>
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/book.jpg" alt="book" class="card-header-picture__image">
+                    </div>
+                    <div class="card-header-gift">
+                        <img src="images/gift.svg" alt="gift" class="card-header-gift__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-new">
+                                1350 &#8381;
+                                <div class="card-bottom-price-old">
+                                    500 &#8381;
+                                </div>
+                            </div>
+                            <div class="card-bottom-price-currency">
+                                <img src="images/rubl.svg" alt="currency" class="card-bottom-price-currency__image">
+                            </div>
+                        </div>
+                        <div class="card-bottom-price-description">
+                            за 2 тома
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn">
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="card-bottom-delivery">
+                        Доставим бесплатно
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-discount">
+                        -55&#37;
+                        <div class="card-header-discount-days">
+                            ещё 2 дня
+                        </div>
+                    </div>
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/book.jpg" alt="book" class="card-header-picture__image">
+                    </div>
+                    <div class="card-header-gift">
+                        <img src="images/gift.svg" alt="gift" class="card-header-gift__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-new">
+                                1350 &#8381;
+                                <div class="card-bottom-price-old">
+                                    500 &#8381;
+                                </div>
+                            </div>
+                            <div class="card-bottom-price-currency">
+                                <img src="images/rubl.svg" alt="currency" class="card-bottom-price-currency__image">
+                            </div>
+                        </div>
+                        <div class="card-bottom-price-description">
+                            за 2 тома
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn">
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="card-bottom-delivery">
+                        Доставим бесплатно
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-discount">
+                        -55&#37;
+                        <div class="card-header-discount-days">
+                            ещё 2 дня
+                        </div>
+                    </div>
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/book.jpg" alt="book" class="card-header-picture__image">
+                    </div>
+                    <div class="card-header-gift">
+                        <img src="images/gift.svg" alt="gift" class="card-header-gift__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-new">
+                                1350 &#8381;
+                                <div class="card-bottom-price-old">
+                                    500 &#8381;
+                                </div>
+                            </div>
+                            <div class="card-bottom-price-currency">
+                                <img src="images/rubl.svg" alt="currency" class="card-bottom-price-currency__image">
+                            </div>
+                        </div>
+                        <div class="card-bottom-price-description">
+                            за 2 тома
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn">
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="card-bottom-delivery">
+                        Доставим бесплатно
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="slide slide-container">
+            <div class="card">
+                <header class="card-header">
+                    <div class="card-header-discount">
+                        -55&#37;
+                        <div class="card-header-discount-days">
+                            ещё 2 дня
+                        </div>
+                    </div>
+                    <div class="card-header-favourite">
+                        <img src="images/heart.svg" alt="heart" class="card-header-favourite__image">
+                    </div>
+                    <div class="card-header-picture">
+                        <img src="images/book.jpg" alt="book" class="card-header-picture__image">
+                    </div>
+                    <div class="card-header-gift">
+                        <img src="images/gift.svg" alt="gift" class="card-header-gift__image">
+                    </div>
+                </header>
+                <footer class="card-bottom">
+                    <div class="card-bottom-price">
+                        <div class="card-bottom-price-title">
+                            <div class="card-bottom-price-new">
+                                1350 &#8381;
+                                <div class="card-bottom-price-old">
+                                    500 &#8381;
+                                </div>
+                            </div>
+                            <div class="card-bottom-price-currency">
+                                <img src="images/rubl.svg" alt="currency" class="card-bottom-price-currency__image">
+                            </div>
+                        </div>
+                        <div class="card-bottom-price-description">
+                            за 2 тома
+                        </div>
+                    </div>
+                    <div class="card-bottom-info">
+                        <div class="card-bottom-info-name">
+                            Пиковая Дама
+                        </div>
+                        <div class="card-bottom-info-author">
+                            Пушкин Александр
+                        </div>
+                        <div class="card-bottom-info-subname">
+                            <span>Лабиринт/Детская художественная</span>
+                        </div>
+                    </div>
+                    <div class="card-bottom-stats">
+                        <div class="card-bottom-stats-rating">
+                            <img src="images/star.svg" alt="start" class="card-bottom-stats-rating__image">
+                        </div>
+                        <div class="card-bottom-stats-rating_value">
+                            <a href="#" class="card-bottom-stats-rating_value__link">4,8</a>
+                        </div>
+                        <div class="card-bottom-stats-comments">
+                            <img src="images/comment.svg" alt="comment" class="card-bottom-stats-comments__image">
+                        </div>
+                        <div class="card-bottom-stats-comments_number">
+                            <a href="#" class="card-bottom-stats-comments_number__link">1234</a>
+                        </div>
+                    </div>
+                    <div class="card-bottom-basket">
+                        <button class="card-bottom-basket-btn">
+                            В корзину
+                        </button>
+                    </div>
+                    <div class="card-bottom-delivery">
+                        Доставим бесплатно
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // slider config:
+        $('.slider').bxSlider({
+            slideWidth: 300,
+            minSlides: 2,
+            maxSlides: 4,
+            slideMargin: 10,
+            moveSlides: 1,
+            useCSS: false,
+            pager: false,
+            wrapperClass: "slider",
+            nextSelector: '#slider-next',
+            prevSelector: '#slider-prev',
+            nextText: '→',
+            prevText: '←'
+        });
+    });
+</script>
+</body>
+</html>
